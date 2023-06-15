@@ -22,3 +22,5 @@ uwsgi --ini mysite.uwsgi.ini
 
 # run server
 screen -d -m python3 manage.py runserver 0:8000
+
+sudo systemctl restart nginx
