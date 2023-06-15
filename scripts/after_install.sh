@@ -13,7 +13,7 @@ cd /home/ubuntu/django-todo-codepipeline/
 python3 -m venv .venv
 source .venv/bin/activate
 
-install requirements.txt
+#install requirements.txt
 pip install -r /home/ubuntu/django-todo-codepipeline/requirements.txt
 python3 manage.py collectstatic --noinput
 python3 manage.py makemigrations
